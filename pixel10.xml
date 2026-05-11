@@ -1,0 +1,22 @@
+<manifest>
+  <remote name="wang" fetch="https://github.com/wangdaning" revision="lineage-23.2"/>
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.0"/>  
+  <remote name="muppets" fetch="https://github.com/themuppets" revision="lineage-23.0"/>
+  <remote name="derpgitlab" fetch="https://gitlab.com/DerpFest" revision="15"/>
+
+##Device
+  <project path="device/google/mustang" name="android_device_google_mustang" remote="lineage"/>
+  <project path="device/google/muzel" name="android_device_google_muzel" remote="lineage"/>
+  <project path="device/google/laguna" name="device_google_laguna" remote="wang"/>
+  <project path="device/google/gs-common" name="android_device_google_gs-common" remote="lineage"/>
+
+##Kernel
+  <project path="device/google/muzel-kernels" name="android_device_google_muzel-kernels" remote="lineage"/>
+
+##Vendor
+  <project path="vendor/google/mustang" name="proprietary_vendor_google_mustang" remote="wang"/>
+  <project path="vendor/google/camera" name="vendor_google_camera" remote="derpgitlab"/>
+
+###ViperFX
+  <project name="ionutgherman/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" remote="github" />
+</manifest>
