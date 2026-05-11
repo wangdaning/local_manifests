@@ -1,6 +1,6 @@
 <manifest>
   <remote name="wang" fetch="https://github.com/wangdaning" revision="lineage-23.2"/>
-  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.0"/>  
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2"/>  
   <remote name="muppets" fetch="https://github.com/themuppets" revision="lineage-23.0"/>
   <remote name="derpgitlab" fetch="https://gitlab.com/DerpFest" revision="15"/>
 
