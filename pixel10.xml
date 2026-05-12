@@ -5,6 +5,8 @@
   <remote name="derpgitlab" fetch="https://gitlab.com/DerpFest" revision="15"/>
 
 ##Device
+  <project path="device/google/blazer" name="android_device_google_blazer" remote="lineage"/>
+  <project path="device/google/frankel" name="android_device_google_frankel" remote="lineage"/>
   <project path="device/google/mustang" name="android_device_google_mustang" remote="lineage"/>
   <project path="device/google/muzel" name="android_device_google_muzel" remote="lineage"/>
   <project path="device/google/laguna" name="device_google_laguna" remote="wang"/>
@@ -14,6 +16,8 @@
   <project path="device/google/muzel-kernels" name="android_device_google_muzel-kernels" remote="lineage"/>
 
 ##Vendor
+  <project path="vendor/google/blazer" name="vendor_google_blazer" remote="wang"/>
+  <project path="vendor/google/frankel" name="vendor_google_mfrankel" remote="wang"/>
   <project path="vendor/google/mustang" name="vendor_google_mustang" remote="wang"/>
   <project path="vendor/google/camera" name="vendor_google_camera" remote="derpgitlab"/>
 
