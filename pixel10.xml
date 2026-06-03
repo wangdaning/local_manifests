@@ -14,7 +14,7 @@
 
 ##Kernel
   <project path="device/google/muzel-kernels" name="android_device_google_muzel-kernels" remote="lineage"/>
-
+  <project path="kernel/google/gs-6.6/devices" name="android_kernel_google_gs-6.6_devices" remote="lineage"/>
 ##Vendor
   <project path="vendor/google/blazer" name="vendor_google_blazer" remote="wang"/>
   <project path="vendor/google/frankel" name="vendor_google_frankel" remote="wang"/>
