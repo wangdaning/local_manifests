@@ -1,27 +1,29 @@
 <manifest>
-  <remote name="wang" fetch="https://github.com/wangdaning" revision="lineage-23.2"/>
+  <remote name="wang" fetch="https://github.com/wangdaning" revision="derp16.2"/>
   <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2"/>  
-  <remote name="muppets" fetch="https://github.com/themuppets" revision="lineage-23.2"/>
   <remote name="derpgitlab" fetch="https://gitlab.com/DerpFest" revision="15"/>
 
 ##Device
   <project path="device/google/blazer" name="android_device_google_blazer" remote="lineage"/>
   <project path="device/google/frankel" name="android_device_google_frankel" remote="lineage"/>
   <project path="device/google/mustang" name="android_device_google_mustang" remote="lineage"/>
-  <project path="device/google/muzel" name="android_device_google_muzel" remote="lineage"/>
+  <project path="device/google/muzel" name="android_device_google_muzel" remote="wang"/>
   <project path="device/google/laguna" name="device_google_laguna" remote="wang"/>
   <project path="device/google/gs-common" name="android_device_google_gs-common" remote="lineage"/>
 
 ##Kernel
-  <project path="device/google/muzel-kernels" name="android_device_google_muzel-kernels" remote="lineage"/>
   <project path="kernel/google/gs-6.6/devices" name="android_kernel_google_gs-6.6_devices" remote="lineage"/>
-  
+  <project path="kernel/google/gs-6.6/google-modules" name="android_kernel_google_gs-6.6_google-modules" remote="lineage" />
+  <project path="kernel/google/gs-6.6/manifest" name="android_kernel_google_gs-6.6_manifest" remote="lineage"/>
+
 ##Vendor
   <project path="vendor/google/blazer" name="vendor_google_blazer" remote="wang"/>
   <project path="vendor/google/frankel" name="vendor_google_frankel" remote="wang"/>
   <project path="vendor/google/mustang" name="vendor_google_mustang" remote="wang"/>
-  <project path="vendor/google/camera" name="vendor_google_camera" remote="derpgitlab"/>
 
-###ViperFX
-  <project name="ionutgherman/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" remote="github" />
+##Other Apps
+  <project path="vendor/google/camera" name="vendor_google_camera" remote="derpgitlab"/>
+  <project path="packages/apps/ViPER4AndroidFX" name="ionutgherman/android_packages_apps_ViPER4AndroidFX" revision="v4a" remote="github" />
+  <project path="vendor/google/GoogleFiles" name="vendor_google_GoogleFiles" remote="wang" revision="main" />
+
 </manifest>
