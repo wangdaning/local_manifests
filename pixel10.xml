@@ -1,7 +1,6 @@
 <manifest>
-  <remote name="wang" fetch="https://github.com/wangdaning" revision="derp16.2"/>
-  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2"/>  
-  <remote name="derpgitlab" fetch="https://gitlab.com/DerpFest" revision="15"/>
+  <remote name="wang" fetch="https://github.com/wangdaning" revision="derp17"/>
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-24.0"/>  
 
 ##Device
   <project path="device/google/blazer" name="android_device_google_blazer" remote="lineage"/>
@@ -22,8 +21,6 @@
   <project path="vendor/google/mustang" name="vendor_google_mustang" remote="wang"/>
 
 ##Other Apps
-  <project path="vendor/google/camera" name="vendor_google_camera" remote="derpgitlab"/>
-  <project path="packages/apps/ViPER4AndroidFX" name="ionutgherman/android_packages_apps_ViPER4AndroidFX" revision="v4a" remote="github" />
   <project path="vendor/google/GoogleFiles" name="vendor_google_GoogleFiles" remote="wang" revision="main" />
   <project path="vendor/google/faceunlock" name="vendor_google_faceunlock" remote="wang" revision="main" />
 </manifest>
